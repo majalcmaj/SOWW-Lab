@@ -1,0 +1,714 @@
+Section: 1, myrank: 1, omp thread number: 0
+Section: 2, myrank: 1, omp thread number: 0
+Section: 1, myrank: 3, omp thread number: 0
+Section: 2, myrank: 3, omp thread number: 0
+Section: 1, myrank: 4, omp thread number: 0
+Section: 1, myrank: 5, omp thread number: 0
+Section: 2, myrank: 5, omp thread number: 0
+Section: 1, myrank: 6, omp thread number: 0
+Section: 2, myrank: 6, omp thread number: 0
+Section: 2, myrank: 4, omp thread number: 1
+Section: 1, myrank: 0, omp thread number: 0
+
+Master sending range 1.000000,2.000000 to process 1
+Master sending range 2.000000,3.000000 to process 2
+Master sending range 3.000000,4.000000 to process 3
+Master sending range 4.000000,5.000000 to process 4
+Master sending range 5.000000,6.000000 to process 5
+Slave received range 1.000000,2.000000
+Master sending range 6.000000,7.000000 to process 6
+Master sending range 7.000000,8.000000 to process 7
+Slave received range 3.000000,4.000000
+Slave received range 5.000000,6.000000
+Slave received range 6.000000,7.000000
+Master sending range 8.000000,9.000000 to process 1
+Master sending range 9.000000,10.000000 to process 2
+Slave received range 4.000000,5.000000
+Master sending range 10.000000,11.000000 to process 3
+Master sending range 11.000000,12.000000 to process 4
+Master sending range 12.000000,13.000000 to process 5
+Master sending range 13.000000,14.000000 to process 6
+Master sending range 14.000000,15.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Master waiting for completion of requests
+Master waiting for completion of requests
+Master waiting for completion of requests
+Master waiting for completion of requests
+Master waiting for completion of requests
+Master waiting for completion of requestsSection: 1, myrank: 2, omp thread number: 1
+Section: 2, myrank: 2, omp thread number: 1
+
+Slave received range 2.000000,3.000000Section: 2, myrank: 0, omp thread number: 1
+Section: 2, myrank: 7, omp thread number: 0
+Section: 1, myrank: 7, omp thread number: 1
+
+Slave received range 7.000000,8.000000
+Slave just computed range 1.000000,2.000000
+Slave just received range 8.000000,9.000000
+Slave just initiated send to master with result 0.628555
+Master received 1 result 0.628555 from process 1
+Master sending range 15.000000,16.000000 to process 1
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 2.000000,3.000000
+Slave just received range 9.000000,10.000000
+Master received 2 result 0.166271 from process 2
+Slave just initiated send to master with result 0.166271
+Master sending range 16.000000,17.000000 to process 2
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 4.000000,5.000000
+Slave just received range 11.000000,12.000000
+Master received 3 result 0.195517 from process 4
+Master sending range 17.000000,18.000000 to process 4
+Slave just initiated send to master with result 0.195517
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 6.000000,7.000000
+Slave just received range 13.000000,14.000000
+Master received 4 result 0.017487 from process 6
+Master sending range 18.000000,19.000000 to process 6
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.017487
+Master waiting for completion of requests
+Slave just computed range 5.000000,6.000000
+Slave just received range 12.000000,13.000000
+Master received 5 result 0.093323 from process 5
+Master sending range 19.000000,20.000000 to process 5
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.093323
+Master waiting for completion of requests
+Slave just computed range 3.000000,4.000000
+Slave just received range 10.000000,11.000000
+Master received 6 result 0.048595 from process 3
+Master sending range 20.000000,21.000000 to process 3
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.048595
+Master waiting for completion of requests
+Slave just computed range 7.000000,8.000000
+Slave just received range 14.000000,15.000000
+Master received 7 result 0.108564 from process 7
+Master sending range 21.000000,22.000000 to process 7
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.108564
+Master waiting for completion of requests
+Slave just computed range 8.000000,9.000000
+Slave just received range 15.000000,16.000000
+Master received 8 result 0.073529 from process 1
+Slave just initiated send to master with result 0.073529
+Master sending range 22.000000,23.000000 to process 1
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 9.000000,10.000000
+Slave just received range 16.000000,17.000000
+Master received 9 result 0.008733 from process 2
+Master sending range 23.000000,24.000000 to process 2
+Slave just initiated send to master with result 0.008733
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 11.000000,12.000000
+Slave just received range 17.000000,18.000000
+Slave just initiated send to master with result 0.063493
+Master received 10 result 0.063493 from process 4
+Master sending range 24.000000,25.000000 to process 4
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 13.000000,14.000000
+Slave just received range 18.000000,19.000000
+Master received 11 result 0.045767 from process 6
+Master sending range 25.000000,26.000000 to process 6
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.045767
+Master waiting for completion of requests
+Slave just computed range 12.000000,13.000000
+Slave just received range 19.000000,20.000000
+Master received 12 result 0.006707 from process 5
+Master sending range 26.000000,27.000000 to process 5
+Slave just initiated send to master with result 0.006707
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 10.000000,11.000000
+Slave just received range 20.000000,21.000000
+Master received 13 result 0.069045 from process 3
+Master sending range 27.000000,28.000000 to process 3
+Slave just initiated send to master with result 0.069045
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 14.000000,15.000000
+Slave just received range 21.000000,22.000000
+Master received 14 result 0.056447 from process 7
+Slave just initiated send to master with result 0.056447
+Master sending range 28.000000,29.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 15.000000,16.000000
+Slave just received range 22.000000,23.000000
+Slave just initiated send to master with result 0.007559
+Master received 15 result 0.007559 from process 1
+Master sending range 29.000000,30.000000 to process 1
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 16.000000,17.000000
+Slave just received range 23.000000,24.000000
+Master received 16 result 0.030374 from process 2
+Master sending range 30.000000,31.000000 to process 2
+Slave just initiated send to master with result 0.030374
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 20.000000,21.000000
+Slave just received range 27.000000,28.000000
+Slave just initiated send to master with result 0.044691
+Master received 17 result 0.044691 from process 3
+Master sending range 31.000000,32.000000 to process 3
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 17.000000,18.000000
+Slave just received range 24.000000,25.000000
+Master received 18 result 0.050416 from process 4
+Slave just initiated send to master with result 0.050416
+Master sending range 32.000000,33.000000 to process 4
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 18.000000,19.000000
+Slave just received range 25.000000,26.000000
+Master received 19 result 0.009764 from process 6
+Master sending range 33.000000,34.000000 to process 6
+Slave just initiated send to master with result 0.009764
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 19.000000,20.000000
+Slave just received range 26.000000,27.000000
+Master received 20 result 0.019702 from process 5
+Master sending range 34.000000,35.000000 to process 5
+Slave just initiated send to master with result 0.019702
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 21.000000,22.000000
+Slave just received range 28.000000,29.000000
+Master received 21 result 0.012531 from process 7
+Slave just initiated send to master with result 0.012531
+Master sending range 35.000000,36.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 22.000000,23.000000
+Slave just received range 29.000000,30.000000
+Slave just initiated send to master with result 0.012275
+Master received 22 result 0.012275 from process 1
+Master sending range 36.000000,37.000000 to process 1
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 23.000000,24.000000
+Slave just received range 30.000000,31.000000
+Master received 23 result 0.039032 from process 2
+Master sending range 37.000000,38.000000 to process 2
+Slave just initiated send to master with result 0.039032
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 27.000000,28.000000
+Slave just received range 31.000000,32.000000
+Master received 24 result 0.017945 from process 3
+Slave just initiated send to master with result 0.017945
+Master sending range 38.000000,39.000000 to process 3
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 25.000000,26.000000
+Slave just received range 33.000000,34.000000
+Master received 25 result 0.007286 from process 6
+Master sending range 39.000000,40.000000 to process 6
+Slave just initiated send to master with result 0.007286
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 24.000000,25.000000
+Slave just received range 32.000000,33.000000
+Master received 26 result 0.015368 from process 4
+Master sending range 40.000000,41.000000 to process 4
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.015368
+Master waiting for completion of requests
+Slave just computed range 26.000000,27.000000
+Slave just received range 34.000000,35.000000
+Master received 27 result 0.033409 from process 5
+Master sending range 41.000000,42.000000 to process 5
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.033409
+Master waiting for completion of requests
+Slave just computed range 28.000000,29.000000
+Slave just received range 35.000000,36.000000
+Master received 28 result 0.004220 from process 7
+Slave just initiated send to master with result 0.004220
+Master sending range 42.000000,43.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 29.000000,30.000000
+Slave just received range 36.000000,37.000000
+Slave just initiated send to master with result 0.027894
+Master received 29 result 0.027894 from process 1
+Master sending range 43.000000,44.000000 to process 1
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 30.000000,31.000000
+Slave just received range 37.000000,38.000000
+Master received 30 result 0.020034 from process 2
+Master sending range 44.000000,45.000000 to process 2
+Slave just initiated send to master with result 0.020034
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 31.000000,32.000000
+Slave just received range 38.000000,39.000000
+Master received 31 result 0.002692 from process 3
+Master sending range 45.000000,46.000000 to process 3
+Slave just initiated send to master with result 0.002692
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 33.000000,34.000000
+Slave just received range 39.000000,40.000000
+Master received 32 result 0.021487 from process 6
+Master sending range 46.000000,47.000000 to process 6
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.021487
+Master waiting for completion of requests
+Slave just computed range 32.000000,33.000000
+Slave just received range 40.000000,41.000000
+Master received 33 result 0.022609 from process 4
+Master sending range 47.000000,48.000000 to process 4
+Slave just initiated send to master with result 0.022609
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 34.000000,35.000000
+Slave just received range 41.000000,42.000000
+Master received 34 result 0.002386 from process 5
+Master sending range 48.000000,49.000000 to process 5
+Slave just initiated send to master with result 0.002386
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 35.000000,36.000000
+Slave just received range 42.000000,43.000000
+Master received 35 result 0.017691 from process 7
+Slave just initiated send to master with result 0.017691
+Master sending range 49.000000,50.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 36.000000,37.000000
+Slave just received range 43.000000,44.000000
+Master received 36 result 0.022224 from process 1
+Slave just initiated send to master with result 0.022224
+Master sending range 50.000000,51.000000 to process 1
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 37.000000,38.000000
+Slave just received range 44.000000,45.000000
+Slave just initiated send to master with result 0.003013
+Master received 37 result 0.003013 from process 2
+Master sending range 51.000000,52.000000 to process 2
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 39.000000,40.000000
+Slave just received range 46.000000,47.000000
+Master received 38 result 0.022224 from process 6
+Master sending range 52.000000,53.000000 to process 6
+Slave just initiated send to master with result 0.022224
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 38.000000,39.000000
+Slave just received range 45.000000,46.000000
+Master received 39 result 0.013275 from process 3
+Master sending range 53.000000,54.000000 to process 3
+Slave just initiated send to master with result 0.013275
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 40.000000,41.000000
+Slave just received range 47.000000,48.000000
+Master received 40 result 0.004306 from process 4
+Master sending range 54.000000,55.000000 to process 4
+Slave just initiated send to master with result 0.004306
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 42.000000,43.000000
+Slave just received range 49.000000,50.000000
+Master received 41 result 0.021518 from process 7
+Slave just initiated send to master with result 0.021518
+Master sending range 55.000000,56.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 41.000000,42.000000
+Slave just received range 48.000000,49.000000
+Master received 42 result 0.009476 from process 5
+Master sending range 56.000000,57.000000 to process 5
+Slave just initiated send to master with result 0.009476
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 43.000000,44.000000
+Slave just received range 50.000000,51.000000
+Master received 43 result 0.006017 from process 1
+Master sending range 57.000000,58.000000 to process 1
+Slave just initiated send to master with result 0.006017
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 44.000000,45.000000
+Slave just received range 51.000000,52.000000
+Master received 44 result 0.006380 from process 2
+Master sending range 58.000000,59.000000 to process 2
+Slave just initiated send to master with result 0.006380
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 45.000000,46.000000
+Slave just received range 53.000000,54.000000
+Master received 45 result 0.020181 from process 3
+Master sending range 59.000000,60.000000 to process 3
+Slave just initiated send to master with result 0.020181
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 46.000000,47.000000
+Slave just received range 52.000000,53.000000
+Master received 46 result 0.007914 from process 6
+Master sending range 60.000000,61.000000 to process 6
+Slave just initiated send to master with result 0.007914
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 47.000000,48.000000
+Slave just received range 54.000000,55.000000
+Master received 47 result 0.004036 from process 4
+Master sending range 61.000000,62.000000 to process 4
+Slave just initiated send to master with result 0.004036
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 49.000000,50.000000
+Slave just received range 55.000000,56.000000
+Master received 48 result 0.009794 from process 7
+Slave just initiated send to master with result 0.009794
+Master sending range 62.000000,63.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 48.000000,49.000000
+Slave just received range 56.000000,57.000000
+Master received 49 result 0.018323 from process 5
+Master sending range 63.000000,64.000000 to process 5
+Slave just initiated send to master with result 0.018323
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 50.000000,51.000000
+Slave just received range 57.000000,58.000000
+Master received 50 result 0.002456 from process 1
+Master sending range 64.000000,65.000000 to process 1
+Slave just initiated send to master with result 0.002456
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 51.000000,52.000000
+Slave just received range 58.000000,59.000000
+Master received 51 result 0.016082 from process 2
+Slave just initiated send to master with result 0.016082
+Master sending range 65.000000,66.000000 to process 2
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 53.000000,54.000000
+Slave just received range 59.000000,60.000000
+Master received 52 result 0.001612 from process 3
+Master sending range 66.000000,67.000000 to process 3
+Slave just initiated send to master with result 0.001612
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 52.000000,53.000000
+Slave just received range 60.000000,61.000000
+Master received 53 result 0.011482 from process 6
+Master sending range 67.000000,68.000000 to process 6
+Slave just initiated send to master with result 0.011482
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 55.000000,56.000000
+Slave just received range 62.000000,63.000000
+Master received 54 result 0.012840 from process 7
+Master sending range 68.000000,69.000000 to process 7
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.012840
+Master waiting for completion of requests
+Slave just computed range 54.000000,55.000000
+Slave just received range 61.000000,62.000000
+Master received 55 result 0.013608 from process 4
+Master sending range 69.000000,70.000000 to process 4
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.013608
+Master waiting for completion of requests
+Slave just computed range 56.000000,57.000000
+Slave just received range 63.000000,64.000000
+Master received 56 result 0.001441 from process 5
+Master sending range 70.000000,71.000000 to process 5
+Slave just initiated send to master with result 0.001441
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 57.000000,58.000000
+Slave just received range 64.000000,65.000000
+Master received 57 result 0.011058 from process 1
+Master sending range 71.000000,72.000000 to process 1
+Slave just initiated send to master with result 0.011058
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 58.000000,59.000000
+Slave just received range 65.000000,66.000000
+Slave just initiated send to master with result 0.013770
+Master received 58 result 0.013770 from process 2
+Master sending range 72.000000,73.000000 to process 2
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 59.000000,60.000000
+Slave just received range 66.000000,67.000000
+Master received 59 result 0.001846 from process 3
+Master sending range 73.000000,74.000000 to process 3
+Slave just initiated send to master with result 0.001846
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 60.000000,61.000000
+Slave just received range 67.000000,68.000000
+Master received 60 result 0.008583 from process 6
+Master sending range 74.000000,75.000000 to process 6
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.008583
+Master waiting for completion of requests
+Slave just computed range 62.000000,63.000000
+Slave just received range 68.000000,69.000000
+Master received 61 result 0.002709 from process 7
+Master sending range 75.000000,76.000000 to process 7
+Slave just initiated send to master with result 0.002709
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 61.000000,62.000000
+Slave just received range 69.000000,70.000000
+Master received 62 result 0.014214 from process 4
+Master sending range 76.000000,77.000000 to process 4
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.014214
+Master waiting for completion of requests
+Slave just computed range 63.000000,64.000000
+Slave just received range 70.000000,71.000000
+Master received 63 result 0.006316 from process 5
+Master sending range 77.000000,78.000000 to process 5
+Slave just initiated send to master with result 0.006316
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 64.000000,65.000000
+Slave just received range 71.000000,72.000000
+Master received 64 result 0.014155 from process 1
+Master sending range 78.000000,79.000000 to process 1
+Slave just initiated send to master with result 0.014155
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 65.000000,66.000000
+Slave just received range 72.000000,73.000000
+Master received 65 result 0.003895 from process 2
+Master sending range 79.000000,80.000000 to process 2
+Slave just initiated send to master with result 0.003895
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 66.000000,67.000000
+Slave just received range 73.000000,74.000000
+Master received 66 result 0.004373 from process 3
+Master sending range 80.000000,81.000000 to process 3
+Slave just initiated send to master with result 0.004373
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 67.000000,68.000000
+Slave just received range 74.000000,75.000000
+Master received 67 result 0.013615 from process 6
+Master sending range 81.000000,82.000000 to process 6
+Slave just initiated send to master with result 0.013615
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 68.000000,69.000000
+Slave just received range 75.000000,76.000000
+Master received 68 result 0.005262 from process 7
+Master sending range 82.000000,83.000000 to process 7
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.005262
+Master waiting for completion of requests
+Slave just computed range 69.000000,70.000000
+Slave just received range 76.000000,77.000000
+Master received 69 result 0.002837 from process 4
+Master sending range 83.000000,84.000000 to process 4
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.002837
+Master waiting for completion of requests
+Slave just computed range 70.000000,71.000000
+Slave just received range 77.000000,78.000000
+Master received 70 result 0.012647 from process 5
+Master sending range 84.000000,85.000000 to process 5
+Master waiting for completion of requests
+Slave just initiated send to master with result 0.012647
+Master waiting for completion of requests
+Slave just computed range 71.000000,72.000000
+Slave just received range 78.000000,79.000000
+Master received 71 result 0.006669 from process 1
+Master sending range 85.000000,86.000000 to process 1
+Slave just initiated send to master with result 0.006669
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 72.000000,73.000000
+Slave just received range 79.000000,80.000000
+Master received 72 result 0.001761 from process 2
+Master sending range 86.000000,87.000000 to process 2
+Slave just initiated send to master with result 0.001761
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 73.000000,74.000000
+Slave just received range 80.000000,81.000000
+Master received 73 result 0.011335 from process 3
+Master sending range 87.000000,88.000000 to process 3
+Slave just initiated send to master with result 0.011335
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 74.000000,75.000000
+Slave just received range 81.000000,82.000000
+Master received 74 result 0.007988 from process 6
+Master sending range 88.000000,89.000000 to process 6
+Slave just initiated send to master with result 0.007988
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 75.000000,76.000000
+Slave just received range 82.000000,83.000000
+Master received 75 result 0.001162 from process 7
+Slave just initiated send to master with result 0.001162
+Master sending range 89.000000,90.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 76.000000,77.000000
+Slave just received range 83.000000,84.000000
+Master received 76 result 0.009778 from process 4
+Master sending range 90.000000,91.000000 to process 4
+Slave just initiated send to master with result 0.009778
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 77.000000,78.000000
+Slave just received range 84.000000,85.000000
+Master received 77 result 0.009107 from process 5
+Master sending range 91.000000,92.000000 to process 5
+Slave just initiated send to master with result 0.009107
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 78.000000,79.000000
+Slave just received range 85.000000,86.000000
+Master received 78 result 0.001028 from process 1
+Master sending range 92.000000,93.000000 to process 1
+Slave just initiated send to master with result 0.001028
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 79.000000,80.000000
+Slave just received range 86.000000,87.000000
+Master received 79 result 0.008091 from process 2
+Master sending range 93.000000,94.000000 to process 2
+Slave just initiated send to master with result 0.008091
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 80.000000,81.000000
+Slave just received range 87.000000,88.000000
+Master received 80 result 0.009940 from process 3
+Master sending range 94.000000,95.000000 to process 3
+Slave just initiated send to master with result 0.009940
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 81.000000,82.000000
+Slave just received range 88.000000,89.000000
+Master received 81 result 0.001313 from process 6
+Master sending range 95.000000,96.000000 to process 6
+Slave just initiated send to master with result 0.001313
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 82.000000,83.000000
+Slave just received range 89.000000,90.000000
+Master received 82 result 0.006388 from process 7
+Slave just initiated send to master with result 0.006388
+Master sending range 96.000000,97.000000 to process 7
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 83.000000,84.000000
+Slave just received range 90.000000,91.000000
+Master received 83 result 0.010426 from process 4
+Master sending range 97.000000,98.000000 to process 4
+Slave just initiated send to master with result 0.010426
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 84.000000,85.000000
+Slave just received range 91.000000,92.000000
+Master received 84 result 0.001948 from process 5
+Master sending range 98.000000,99.000000 to process 5
+Slave just initiated send to master with result 0.001948
+Master waiting for completion of requests
+Master waiting for completion of requests
+Slave just computed range 85.000000,86.000000
+Slave just received range 92.000000,93.000000
+Master received 85 result 0.004779 from process 1
+Slave just initiated send to master with result 0.004779
+Master sending range 99.000000,100.000000 to process 1
+Master sending FINISHING range 100.000000,100.000000 to process 1
+Master sending FINISHING range 100.000000,100.000000 to process 2
+Master sending FINISHING range 100.000000,100.000000 to process 3
+Master sending FINISHING range 100.000000,100.000000 to process 4
+Master sending FINISHING range 100.000000,100.000000 to process 5
+Master sending FINISHING range 100.000000,100.000000 to process 6
+Master sending FINISHING range 100.000000,100.000000 to process 7
+Master before MPI_Waitall with total proccount=8
+Slave just computed range 86.000000,87.000000
+Slave just received range 93.000000,94.000000
+Slave just initiated send to master with result 0.010537
+Slave just computed range 87.000000,88.000000
+Slave just received range 94.000000,95.000000
+Slave just initiated send to master with result 0.002844
+Slave just computed range 88.000000,89.000000
+Slave just received range 95.000000,96.000000
+Slave just initiated send to master with result 0.003362
+Slave just computed range 89.000000,90.000000
+Slave just received range 96.000000,97.000000
+Slave just initiated send to master with result 0.010275
+Slave just computed range 90.000000,91.000000
+Slave just received range 97.000000,98.000000
+Slave just initiated send to master with result 0.003903
+Slave just computed range 91.000000,92.000000
+Slave just received range 98.000000,99.000000
+Slave just initiated send to master with result 0.002214
+Slave just computed range 92.000000,93.000000
+Slave just received range 99.000000,100.000000
+Master after MPI_Waitall with total proccount=8
+Master receiving result from process 1
+Slave just initiated send to master with result 0.009669
+Slave just computed range 93.000000,94.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.005018
+Slave just computed range 94.000000,95.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.001389
+Slave just computed range 95.000000,96.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.008772
+Slave just computed range 96.000000,97.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.006089
+Slave just computed range 97.000000,98.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.000916
+Slave just computed range 98.000000,99.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.007657
+Slave just computed range 99.000000,100.000000
+Slave just received range 100.000000,100.000000
+Slave just initiated send to master with result 0.007026
+Master received 86 result 0.007026 from process 1
+Master receiving result from process 2
+Master received 87 result 0.005018 from process 2
+Master receiving result from process 3
+Master received 88 result 0.001389 from process 3
+Master receiving result from process 4
+Master received 89 result 0.000916 from process 4
+Master receiving result from process 5
+Master received 90 result 0.007657 from process 5
+Master receiving result from process 6
+Master received 91 result 0.008772 from process 6
+Master receiving result from process 7
+Master received 92 result 0.006089 from process 7
+Hi, I am process 0, the result is 2.516266
+
+Process 2 finished
+Process 3 finished
+Process 4 finished
+Process 5 finished
+Process 6 finished
+Process 7 finished
+Process 0 finished
+Process 1 finished
